@@ -54,56 +54,56 @@ namespace virtual_pet_tests
         public void Feed_Should_Decrease_Hunger_By_40()
         {
             // testPet.Feed();
-            // Assert.AreEqual(10, testPet.GetHunger());
+            // Assert.AreEqual(10, testPet.Hunger());
         }
 
         [Test]
         public void SeeDoctor_Should_Increase_Health_By_30()
         {
             // testPet.SeeDoctor();
-            // Assert.AreEqual(60, testPet.GetHealth());
+            // Assert.AreEqual(60, testPet.Health());
         }
 
         [Test]
         public void Play_Should_Increase_Hunger_By_10()
         {
             // testPet.Play();
-            // Assert.AreEqual(60, testPet.GetHunger());
+            // Assert.AreEqual(60, testPet.Hunger());
         }
 
         [Test]
         public void Play_Should_Decrease_Boredom_By_20()
         {
             // testPet.Play();
-            // Assert.AreEqual(40, testPet.GetBoredom());
+            // Assert.AreEqual(40, testPet.Boredom());
         }
 
         [Test]
         public void Play_Should_Increase_Health_By_10()
         {
             // testPet.Play();
-            // Assert.AreEqual(40, testPet.GetHealth());
+            // Assert.AreEqual(40, testPet.Health());
         }
 
         [Test]
         public void Tick_Should_Increase_Hunger_By_5()
         {
             // testPet.Tick();
-            // Assert.AreEqual(55, testPet.GetHunger());
+            // Assert.AreEqual(55, testPet.Hunger());
         }
 
         [Test]
         public void Tick_Should_Increase_Boredom_By_5()
         {
             // testPet.Tick();
-            // Assert.AreEqual(65, testPet.GetBoredom());
+            // Assert.AreEqual(65, testPet.Boredom());
         }
 
         [Test]
         public void Tick_Should_Decrease_Health_By_5()
         {
             // testPet.Tick();
-            // Assert.AreEqual(25, testPet.GetHealth());
+            // Assert.AreEqual(25, testPet.Health());
         }
     }
 }
