@@ -54,6 +54,7 @@ namespace template_csharp_virtual_pet
            
         {
             Console.Clear();
+      
             if(Boredom >= Energy)
             {
                 Boredom -= 25;

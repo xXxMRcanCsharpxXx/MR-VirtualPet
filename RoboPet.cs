@@ -9,12 +9,21 @@ namespace template_csharp_virtual_pet
     internal class RoboPet : Pet
     {
         public string RobotType;
+            //TimeOfDay
+            //CheckTheWeather
+            //PlayMusic
 
-        public RoboPet()
+        public RoboPet(string name, string species)
         {
-            Name = "Robot";
+            Name = name;
             RobotType = "Robot";
             Health = 100;
+
         }
+
+      
+
+
+        
     }
 }
